@@ -1,0 +1,52 @@
+
+body{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: bisque;
+}
+.slider
+{
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px rgba(41, 43, 41, 0.2);
+  position: relative;
+  object-fit: cover;
+}
+
+.image
+{
+  display: flex;
+ 
+ 
+}
+.image img{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.btn
+{
+  position: absolute;
+  color: white;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  opacity: .5;
+}
+
+.prev
+{
+  left:10px;
+}
+.next{
+  right:10px
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 1;
+}
