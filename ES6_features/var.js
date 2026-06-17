@@ -26,13 +26,22 @@
 
 //4.attached to window
 
-var username = "shanto";
-console.log(username);//username show in window
+// var username = "shanto";
+// console.log(username);//username show in window
 
 
 
 //5. const
 
-const name="shanto";
-name="nigga"
-console.log(name)//cant do it bcz of const let u assign a value into a variable at once
+// const name="shanto";
+// name="nigga"
+// console.log(name)//cant do it bcz of const let u assign a value into a variable at once
+
+
+//6.
+
+const age={
+  year:18
+}
+age.year=23;
+console.log(age.year)//it allow it
