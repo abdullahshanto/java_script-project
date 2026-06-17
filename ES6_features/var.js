@@ -1,3 +1,4 @@
+//1.
 // var age =18;
 // if(age>=18){
 //   var a= true;
@@ -27,3 +28,11 @@
 
 var username = "shanto";
 console.log(username);//username show in window
+
+
+
+//5. const
+
+const name="shanto";
+name="nigga"
+console.log(name)//cant do it bcz of const let u assign a value into a variable at once
