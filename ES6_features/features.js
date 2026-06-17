@@ -40,8 +40,11 @@
 
 //6.
 
-const age={
-  year:18
-}
-age.year=23;
-console.log(age.year)//it allow it
+// const age={
+//   year:18
+// }
+// age.year=23;
+// console.log(age.year)//it allow it
+
+//uses of arrow function and why to use it
+//arrow function solve "This" keyword problem
