@@ -17,6 +17,13 @@
 
 //3.over write problem
 
-var username="shanto";
-var unsername="Hossain";
-console.log(username);
+// var username="shanto";
+// var unsername="Hossain";
+// console.log(username);
+
+
+
+//4.attached to window
+
+var username = "shanto";
+console.log(username);//username show in window
