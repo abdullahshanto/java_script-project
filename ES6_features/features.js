@@ -99,3 +99,25 @@
 
 // Short syntax
 // No own this (inherits from parent scope)
+
+
+
+
+// 11. Destructuring (array + object unpacking)
+// Array:
+// const arr = [1, 2, 3];
+
+// const [a, b] = arr;
+
+// console.log(a, b); // 1 2
+// Object:
+// const user = {
+//   name: "Shanto",
+//   age: 18
+// };
+
+// const { name, age } = user;
+
+// console.log(name, age);
+
+//  Extract values easily without repeating user.name
