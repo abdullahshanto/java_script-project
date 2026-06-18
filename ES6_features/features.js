@@ -48,3 +48,27 @@
 
 //uses of arrow function and why to use it
 //arrow function solve "This" keyword problem
+
+
+
+//7. let (block scope fix for var problem)
+// if (true) {
+//   let x = 10;
+// }
+// console.log(x); //  ReferenceError
+
+// Unlike var, let is block scoped, so it cannot leak outside { }.
+
+
+
+//8. Template Literals (string improvement)
+// let name = "Shanto";
+// let age = 18;
+
+// console.log(`My name is ${name} and I am ${age} years old`);
+
+//  Benefits:
+
+// No string concatenation (+)
+// Easier multi-line strings
+// Cleaner interpolation ${ }
