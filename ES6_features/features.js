@@ -72,3 +72,30 @@
 // No string concatenation (+)
 // Easier multi-line strings
 // Cleaner interpolation ${ }
+
+
+
+
+
+//9. Default Parameters
+// function greet(name = "Guest") {
+//   console.log("Hello " + name);
+// }
+
+// greet(); // Hello Guest
+
+//  If no argument is passed, default value is used.
+
+
+
+
+
+// 10. Arrow Function (short syntax + no own this)
+// const add = (a, b) => a + b;
+
+// console.log(add(2, 3));
+
+// Benefits:
+
+// Short syntax
+// No own this (inherits from parent scope)
