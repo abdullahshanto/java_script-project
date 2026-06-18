@@ -121,3 +121,22 @@
 // console.log(name, age);
 
 //  Extract values easily without repeating user.name
+
+
+
+
+
+
+// 12. Spread Operator (...)
+// const arr1 = [1, 2];
+// const arr2 = [...arr1, 3, 4];
+
+// console.log(arr2);
+
+//  Used for:
+
+// copying arrays/objects
+// merging data
+// Object example:
+// const obj1 = { a: 1 };
+// const obj2 = { ...obj1, b: 2 };
