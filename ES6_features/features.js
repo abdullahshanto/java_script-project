@@ -152,3 +152,18 @@
 // sum(1, 2, 3, 4);
 
 //  Collects all arguments into an array.
+
+
+
+
+
+// 14. Object Property Shorthand
+// let name = "Shanto";
+// let age = 18;
+
+// const user = {
+//   name,
+//   age
+// };
+
+//  Instead of { name: name, age: age }
