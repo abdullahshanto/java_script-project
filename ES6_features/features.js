@@ -140,3 +140,15 @@
 // Object example:
 // const obj1 = { a: 1 };
 // const obj2 = { ...obj1, b: 2 };
+
+
+
+
+// 13. Rest Operator (... in function)
+// function sum(...numbers) {
+//   console.log(numbers);
+// }
+
+// sum(1, 2, 3, 4);
+
+//  Collects all arguments into an array.
