@@ -222,3 +222,8 @@
 // let result = arr.map(x => x * 2);
 
 // console.log(result);
+
+
+
+// filter:
+// let result = arr.filter(x => x > 1);
