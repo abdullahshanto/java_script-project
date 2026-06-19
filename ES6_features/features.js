@@ -167,3 +167,25 @@
 // };
 
 //  Instead of { name: name, age: age }
+
+
+
+
+
+
+
+// 15. Classes (OOP in JS)
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   greet() {
+//     console.log("Hello " + this.name);
+//   }
+// }
+
+// const p1 = new Person("Shanto");
+// p1.greet();
+
+//  Makes OOP style easier than prototype system.
