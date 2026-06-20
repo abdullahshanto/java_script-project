@@ -34,15 +34,31 @@
 
 
 
-function login(username, password) {
-  let user = username;
-  let pass = password;
+// function login(username, password) {
+//   let user = username;
+//   let pass = password;
+
+//   return function () {
+//     console.log("Logged in as:", user);
+//   };
+// }
+
+// const user1 = login("Shanto", "1234");
+
+// user1(); // Logged in as: Shanto
+
+
+
+
+
+function bank() {
+  let balance = 1000;
 
   return function () {
-    console.log("Logged in as:", user);
+    balance -= 100;
+    console.log("Balance:", balance);
   };
 }
 
-const user1 = login("Shanto", "1234");
-
-user1(); // Logged in as: Shanto
+const withdraw = bank();
+withdraw();
