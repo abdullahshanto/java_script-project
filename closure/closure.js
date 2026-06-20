@@ -51,14 +51,28 @@
 
 
 
-function bank() {
-  let balance = 1000;
+// function bank() {
+//   let balance = 1000;
 
-  return function () {
-    balance -= 100;
-    console.log("Balance:", balance);
+//   return function () {
+//     balance -= 100;
+//     console.log("Balance:", balance);
+//   };
+// }
+
+// const withdraw = bank();
+// withdraw();
+
+
+
+function greet(msg) {
+  return function (name) {
+    console.log(msg + ", " + name);
   };
 }
 
-const withdraw = bank();
-withdraw();
+const sayHi = greet("Hi");
+const sayHello = greet("Hello");
+
+sayHi("Shanto");   // Hi, Shanto
+sayHello("Rahim"); // Hello, Rahim
