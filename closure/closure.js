@@ -15,17 +15,34 @@
 
 
 
-function counter() {
-  let count = 0;
+// function counter() {
+//   let count = 0;
+
+//   return function () {
+//     count++;
+//     console.log(count);
+//   };
+// }
+
+// const inc = counter();
+
+// inc(); // 1
+// inc(); // 2
+// inc(); // 3
+
+
+
+
+
+function login(username, password) {
+  let user = username;
+  let pass = password;
 
   return function () {
-    count++;
-    console.log(count);
+    console.log("Logged in as:", user);
   };
 }
 
-const inc = counter();
+const user1 = login("Shanto", "1234");
 
-inc(); // 1
-inc(); // 2
-inc(); // 3
+user1(); // Logged in as: Shanto
