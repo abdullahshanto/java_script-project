@@ -100,21 +100,45 @@
 
 
 
-function once() {
-  let called = false;
+// function once() {
+//   let called = false;
 
-  return function () {
-    if (!called) {
-      console.log("Running first time");
-      called = true;
+//   return function () {
+//     if (!called) {
+//       console.log("Running first time");
+//       called = true;
+//     } else {
+//       console.log("Already called");
+//     }
+//   };
+// }
+
+// const runOnce = once();
+
+// runOnce(); // Running first time
+// runOnce(); // Already called
+// //to check whether the data used or not 
+
+
+
+
+function cacheFunc() {
+  let cache = {};
+
+  return function (num) {
+    if (cache[num]) {
+      console.log("From cache");
+      return cache[num];
     } else {
-      console.log("Already called");
+      console.log("Calculating...");
+      let result = num * 2;
+      cache[num] = result;
+      return result;
     }
   };
 }
 
-const runOnce = once();
+const calc = cacheFunc();
 
-runOnce(); // Running first time
-runOnce(); // Already called
-//to check whether the data used or not 
+console.log(calc(5)); // Calculating... 10
+console.log(calc(5)); // From cache 10
