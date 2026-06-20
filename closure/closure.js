@@ -65,14 +65,34 @@
 
 
 
-function greet(msg) {
-  return function (name) {
-    console.log(msg + ", " + name);
+// function greet(msg) {
+//   return function (name) {
+//     console.log(msg + ", " + name);
+//   };
+// }
+
+// const sayHi = greet("Hi");
+// const sayHello = greet("Hello");
+
+// sayHi("Shanto");   // Hi, Shanto
+// sayHello("Rahim"); // Hello, Rahim
+
+
+
+
+
+
+function createCounter() {
+  let count = 0;
+
+  return function () {
+    count++;
+    console.log("Clicked:", count);
   };
 }
 
-const sayHi = greet("Hi");
-const sayHello = greet("Hello");
+const click = createCounter();
 
-sayHi("Shanto");   // Hi, Shanto
-sayHello("Rahim"); // Hello, Rahim
+click(); // 1
+click(); // 2
+click(); // 3
