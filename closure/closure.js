@@ -82,17 +82,39 @@
 
 
 
-function createCounter() {
-  let count = 0;
+// function createCounter() {
+//   let count = 0;
+
+//   return function () {
+//     count++;
+//     console.log("Clicked:", count);
+//   };
+// }
+
+// const click = createCounter();
+
+// click(); // 1
+// click(); // 2
+// click(); // 3
+
+
+
+
+function once() {
+  let called = false;
 
   return function () {
-    count++;
-    console.log("Clicked:", count);
+    if (!called) {
+      console.log("Running first time");
+      called = true;
+    } else {
+      console.log("Already called");
+    }
   };
 }
 
-const click = createCounter();
+const runOnce = once();
 
-click(); // 1
-click(); // 2
-click(); // 3
+runOnce(); // Running first time
+runOnce(); // Already called
+//to check whether the data used or not 
