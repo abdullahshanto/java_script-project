@@ -121,3 +121,24 @@
 
 
 
+
+function cacheFunc() {
+  let cache = {};
+
+  return function (num) {
+    if (cache[num]) {
+      console.log("From cache");
+      return cache[num];
+    } else {
+      console.log("Calculating...");
+      let result = num * 2;
+      cache[num] = result;
+      return result;
+    }
+  };
+}
+
+const calc = cacheFunc();
+
+console.log(calc(5)); // Calculating... 10
+console.log(calc(5)); // From cache 10
