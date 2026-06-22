@@ -100,25 +100,6 @@
 
 
 
-// function once() {
-//   let called = false;
-
-//   return function () {
-//     if (!called) {
-//       console.log("Running first time");
-//       called = true;
-//     } else {
-//       console.log("Already called");
-//     }
-//   };
-// }
-
-// const runOnce = once();
-
-// runOnce(); // Running first time
-// runOnce(); // Already called
-// //to check whether the data used or not 
-
 
 
 
