@@ -238,11 +238,3 @@
 
 
 
-
-
-// 19. Nullish Coalescing (??)
-// let value = null;
-
-// console.log(value ?? "default");
-
-//  Only replaces null or undefined (not 0 or "")
