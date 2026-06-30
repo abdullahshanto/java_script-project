@@ -120,20 +120,3 @@
 // //to check whether the data used or not 
 
 
-
-
-function cacheFunc() {
-  let cache = {};
-
-  return function (num) {
-    if (cache[num]) {
-      console.log("From cache");
-      return cache[num];
-    } else {
-      console.log("Calculating...");
-      let result = num * 2;
-      cache[num] = result;
-      return result;
-    }
-  };
-}
