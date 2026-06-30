@@ -137,8 +137,3 @@ function cacheFunc() {
     }
   };
 }
-
-const calc = cacheFunc();
-
-console.log(calc(5)); // Calculating... 10
-console.log(calc(5)); // From cache 10
