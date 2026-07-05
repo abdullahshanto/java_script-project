@@ -82,20 +82,6 @@
 
 
 
-// function createCounter() {
-//   let count = 0;
-
-//   return function () {
-//     count++;
-//     console.log("Clicked:", count);
-//   };
-// }
-
-// const click = createCounter();
-
-// click(); // 1
-// click(); // 2
-// click(); // 3
 
 
 
