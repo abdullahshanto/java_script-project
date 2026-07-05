@@ -65,18 +65,6 @@
 
 
 
-// function greet(msg) {
-//   return function (name) {
-//     console.log(msg + ", " + name);
-//   };
-// }
-
-// const sayHi = greet("Hi");
-// const sayHello = greet("Hello");
-
-// sayHi("Shanto");   // Hi, Shanto
-// sayHello("Rahim"); // Hello, Rahim
-
 
 
 
