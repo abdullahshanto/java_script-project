@@ -113,6 +113,10 @@
 //   };
 // }
 
+// const runOnce = once();
 
+// runOnce(); // Running first time
+// runOnce(); // Already called
+// //to check whether the data used or not 
 
 
