@@ -100,18 +100,7 @@
 
 
 
-// function once() {
-//   let called = false;
 
-//   return function () {
-//     if (!called) {
-//       console.log("Running first time");
-//       called = true;
-//     } else {
-//       console.log("Already called");
-//     }
-//   };
-// }
 
 
 
