@@ -225,3 +225,9 @@
 
 
 
+// filter:
+// let result = arr.filter(x => x > 1);
+
+
+
+
