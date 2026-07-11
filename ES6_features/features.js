@@ -229,10 +229,4 @@
 // let result = arr.filter(x => x > 1);
 
 
-// 18. Optional Chaining (?.)
-// const user = {};
-
-// console.log(user?.address?.city);
-
-//  Prevents error if property doesn’t exist.
 
